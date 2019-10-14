@@ -1,0 +1,39 @@
+body,html{
+  height: 100%;
+}
+*{box-sizing: border-box;
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 20px;
+}
+
+.header a {
+  float: left;
+  color:black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 9px;
+} 
+
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active){
+  background-color: #c4a474;
+}
+
+
+.active {
+}
+body{ background-color: gray;
+ }
